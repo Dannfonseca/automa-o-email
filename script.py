@@ -72,3 +72,28 @@ try:
     print("E-mail enviado com sucesso!")
 except Exception as e:
     print(f"Erro ao enviar o e-mail: {e}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://colab.research.google.com/drive/1YG5gjUd_U4DTcCLT1nWnvxXCBRylLn0G#scrollTo=10eg8AuCudlq
