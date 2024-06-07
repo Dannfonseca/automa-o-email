@@ -5,7 +5,7 @@ from google.cloud import secretmanager
 
 def send_email(request):
     email_remetente = 'russelmytho@gmail.com'
-    email_senha = 'fswwjozaaufielil'
+    email_senha = os.environ.get("SENHA_EMAIL") 
     email_destinatario = 'pgcnseg@gmail.com'
 
     assunto = 'Testando'
